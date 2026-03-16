@@ -443,6 +443,47 @@
       font-weight:900;
     }
 
+    .author-photo{
+      width:84px;
+      height:84px;
+      border-radius:22px;
+      object-fit:cover;
+      border:3px solid #e5edff;
+      box-shadow:0 8px 20px rgba(37,99,235,0.15);
+    }
+
+    .author-meta{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-bottom:8px;
+    }
+
+    .author-link{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      background:#eff6ff;
+      color:#1d4ed8;
+      border:1px solid #bfdbfe;
+      padding:8px 12px;
+      border-radius:999px;
+      font-size:14px;
+      font-weight:700;
+      text-decoration:none;
+    }
+
+    .author-link:hover{
+      background:#dbeafe;
+    }
+
+    .author-role{
+      color:#64748b;
+      font-size:14px;
+      margin:0 0 8px;
+    }
+
     .notice{
       margin-top:16px;
       padding:14px 16px;
@@ -617,7 +658,6 @@
 
     <section class="section" id="overview">
       <h2>Cloudways Promo Code Overview</h2>
-      
 
       <table class="overview-table">
         <tr>
@@ -972,16 +1012,27 @@
     </section>
 
     <section class="section">
-     
-
       <div class="trust-box">
-        <div class="trust-avatar">B</div>
         <div>
-          <h3 style="margin:0 0 8px;">Md Noman Miah</h3>
+          <img src="assets/img/noman.jpg" alt="Md Noman Miah" class="author-photo">
+        </div>
+
+        <div>
+          <div class="author-meta">
+            <h3 style="margin:0;">Md Noman Miah</h3>
+            <a class="author-link" href="https://www.linkedin.com/in/marketernoman/" target="_blank" rel="noopener noreferrer nofollow">
+              View LinkedIn Profile
+            </a>
+          </div>
+
+          <p class="author-role">
+            Money Saving Expert • Coupon & Deal Content Specialist
+          </p>
+
           <p style="margin:0 0 10px;">
             He is a Money Saving Expert with more than 10 years of experience covering coupon codes, discounts, and online shopping deals. He creates helpful, trustworthy content that helps readers save money and find the best offers available.
-            
           </p>
+
           
         </div>
       </div>
